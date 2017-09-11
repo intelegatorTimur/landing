@@ -1,0 +1,61 @@
+@media(min-width: 980px){
+    .vis-desktop{
+        display: block !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 979px){
+    .buttons .learn, .buttons .soc{
+        float:none;
+        margin:0 auto;
+        margin-bottom: 5px;
+        max-width: 250px;
+    }
+    .vis-tablet{
+        display: block !important;
+    }
+    .menu ul{
+        width: 50%;
+    }
+    .about .iphone img{
+        width: 70%;
+    }
+}
+
+@media(max-width: 767px){
+    .buttons .learn, .buttons .soc{
+        float:none;
+        margin:0 auto;
+        margin-bottom: 5px;
+        max-width: 250px;
+    }
+    .vis-tablet{
+        display: block !important;
+    }
+    .menu ul{
+        width: 50%;
+    }
+    .about .iphone img{
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 480px){
+    .buttons .learn, .buttons .soc{
+        float:none;
+        margin:0 auto;
+        margin-bottom: 5px;
+        max-width: 250px;
+    }
+    .header .shabl .info h2{
+        
+        font-size: 1.5em;
+    }
+    .vis-phone{
+        display: block !important;
+    }
+    .about .separator img{
+        width: 70%;
+    }
+}

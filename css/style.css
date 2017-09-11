@@ -1,0 +1,224 @@
+@font-face{
+    font-family: "Source Sans light";
+    src: url("../fonts/SourceSansPro-Light.ttf");
+    
+}
+@font-face{
+    font-family: "Source Sans regular";
+    src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+.header {
+    width: 100%;
+    height: 600px;
+     background: url("../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.header .shabl{
+    padding-top:  20px;
+    width: inherit;
+    height: inherit;
+    background: rgba(57, 77, 92, 0.8);
+    padding-bottom: 15px;
+}
+.header .shabl .content{
+    width: 100%;
+
+
+}
+.header .content > div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header .shabl .logo{
+    
+    
+}
+.header .shabl .menu{
+    
+}
+.header .shabl .info{
+   
+    color: white;
+  
+   
+}
+.header .shabl .info h2{
+    font-family: "Source Sans regular";
+    font-size: 2.8em;
+}
+.header .shabl .buttons a{
+   display: block;
+    border: 1px solid white;
+    padding: 15px 20px;
+    max-width: 170px;
+    color: white;
+}
+.header .shabl .menu .circle{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background: red;
+    border-radius: 50%;
+    
+    
+}
+.header .learn{
+    float: right;
+}
+.header .soc{
+    float: left;
+}
+.menu ul{
+    list-style: none;
+    width: 95%;
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.menu ul>li{
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid white;
+}
+.menu ul>li>a{
+    display: block;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    color: aqua;
+}
+.about{
+    width: 100%;
+    background: white;
+    min-height: 300px;
+}
+.about .about_us, .about .separator, .about .about_text, .about .iphone{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+.about .separator{
+    background: red;
+}
+.service{
+    width: 100%;
+    background: #F6EB70;
+    min-height: 300px;
+    padding-bottom: 30px;
+  
+}
+.service > div > div{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+}
+.service .col_box{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: -40px;
+    background:#F6EB70;
+    
+}
+.service .col_box i{
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+.service .main_box{
+    
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    
+}
+.service .service_info{
+    margin-top: 50px;
+}
+.service .service_text1{
+   padding-top: 50px;
+}
+.portfolio{
+    width: 100%;
+    min-height: 200px;
+    padding-bottom: 50px;
+}
+.portfolio > div > div{
+    min-height: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.portfolio .ipad{
+    
+    margin: 0 auto;
+    width: 67%;
+    height: 520px;
+    background:url(../images/ipad.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio .laptop{
+    padding-top: 40px;
+}
+.ipad iframe{
+    margin-top: 27px;
+    width: 630px;
+    height: 470px;
+}
+.map{
+    width: 100%;
+    height: 400px;
+    
+        
+}
+.map iframe{
+    width: inherit;
+    height: inherit;
+}
+.map .fake{
+    width: 100%;
+    height: 400px;
+     background: rgba(255,124,124,0.3);
+    
+    position: absolute;
+    
+}
+.contacts{
+    width: 100%;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #FF7C7C;
+}
+.contacts > div > div{
+    text-align: center;
+    padding-top: 20px;
+}
+.contacts i{
+    font-size: 2.5em;
+}
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background: #394D5C;
+}
